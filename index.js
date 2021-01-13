@@ -4,3 +4,8 @@ document.addEventListener("DOMContentLoaded",()=>{
         console.log(event)
     })
 })
+
+function descendingOrder(n){
+    let number=Array.from(String(n), Number)
+      return number.sort()
+      }
