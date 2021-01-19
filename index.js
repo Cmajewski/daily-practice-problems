@@ -9,3 +9,8 @@ function descendingOrder(n){
     let number=Array.from(String(n), Number)
       return number.sort()
       }
+
+function removeVowel(str){
+    str.replace(/aeiou/gi,"")
+    return str
+}
